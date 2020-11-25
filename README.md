@@ -1,4 +1,4 @@
-# Unreal Nano Desktop
+# Unreal Nano Lite for Desktop
 
 ## Prereqs UE
 1. Download and install the latest [Unreal Engine](https://www.unrealengine.com/en-US/download) (Publishing license)
