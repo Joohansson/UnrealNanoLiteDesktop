@@ -23,6 +23,7 @@
 1. File/Package project/Windows
 
 ## Troubleshooting on Mac
+### Access errors
 Could be permission bugs when using UE4.26. First when generating xcode project files and then when building inside xcode. One solution for when generating xcode files fails is to press arrow up key in the terminal to get latest command and put "sudo" in front of the command. Another way is to run this (given these are the files it complains about). Not sure of chmod is needed.
 Replace "user" with your username (maybe also the group "staff").
 
@@ -41,3 +42,7 @@ It's also likely you will get a similar permission error when building the game 
 sudo chown user:staff "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Programs/UnrealBuildTool/obj/Development/UnrealBuildTool.csproj.FilesWrittenAbsolute.txt"
 sudo chmod 777 "/Users/Shared/Epic Games/UE_4.26/Engine/Source/Programs/UnrealBuildTool/obj/Development/UnrealBuildTool.csproj.FilesWrittenAbsolute.txt"
 ```
+
+### Editor crash on launch
+Old mac can't handle desktop graphics. Try open any other project and change settings preview render level to iOS. Then launch the desktop game again.
+It also works if making the graphic window smaller! Try 1/4 of the total screen.
