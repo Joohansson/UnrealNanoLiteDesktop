@@ -1,7 +1,8 @@
 # Unreal Nano Lite for Desktop
 
 ## Prereqs UE
-1. Download and install the latest [Unreal Engine](https://www.unrealengine.com/en-US/download) (Publishing license)
+1. Download and install [Unreal Engine](https://www.unrealengine.com/en-US/download) (Publishing license)
+2. Currently tested and developed on Unreal Engine 4.26. Not backward compatible but hopefully forward with little effort.
 
 ## Build Instructions
 1. Clone this repo
